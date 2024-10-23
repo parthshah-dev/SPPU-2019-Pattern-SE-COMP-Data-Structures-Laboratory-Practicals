@@ -55,7 +55,7 @@ def fibbo_srch(target, list):
             fibMm2 = fibM - fibMm1
             offset = i
             
-        elif(list[i]<target):
+        elif(list[i]>target):
             fibM = fibMm2
             fibMm1 = fibMm1 - fibMm2
             fibMm2 = fibM - fibMm1
